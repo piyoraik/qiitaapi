@@ -59,9 +59,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     // API通信 
     func getArticles() {
         loadNow.startAnimating()
-        let _ = Alamofire.request("https://qiita.com/api/v2/items")
+        let _ = AF.request("https://qiita.com/api/v2/items")
                 .responseJSON { reponse in
-                    guard let object = reponse.result.value else {
+                    guard let object = reponse.data else {
                         return
                     }
 

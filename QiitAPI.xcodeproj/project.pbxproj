@@ -14,7 +14,6 @@
 		2AA2248E237CDF3B00B698F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AA2248D237CDF3B00B698F3 /* Assets.xcassets */; };
 		2AA22491237CDF3B00B698F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AA2248F237CDF3B00B698F3 /* LaunchScreen.storyboard */; };
 		2AF55CB8237D1975001B8939 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF55CB7237D1975001B8939 /* NewViewController.swift */; };
-		7C477C43D9CAFF0105E97F22 /* Pods_QiitAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 987C0581B655CC02628A6891 /* Pods_QiitAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +28,7 @@
 		2AA22492237CDF3B00B698F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AF55CB7237D1975001B8939 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		3ED07EB341F70C879B0C301D /* Pods-QiitAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QiitAPI.debug.xcconfig"; path = "Target Support Files/Pods-QiitAPI/Pods-QiitAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		4B63E20C2643F21800E2D2C7 /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Alamofire; path = Pods/Alamofire; sourceTree = "<group>"; };
 		987C0581B655CC02628A6891 /* Pods_QiitAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QiitAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -37,7 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C477C43D9CAFF0105E97F22 /* Pods_QiitAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +79,7 @@
 		398F6AECD1418531342A84F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4B63E20C2643F21800E2D2C7 /* Alamofire */,
 				987C0581B655CC02628A6891 /* Pods_QiitAPI.framework */,
 			);
 			name = Frameworks;
@@ -123,7 +123,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Syun Tanaka";
 				TargetAttributes = {
 					2AA22480237CDF3900B698F3 = {
@@ -264,6 +264,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -324,6 +325,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
